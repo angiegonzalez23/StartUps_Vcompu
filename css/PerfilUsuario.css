@@ -29,9 +29,24 @@ height: 530px;
 	
 }
 .AG_cuadro1 img{
-	width: 200px;
-	height: 200px;
-	border-radius:0px;
+	margin-left: 10px;
+	width: 240px;
+	height: 220px;
+	border-radius:140px;
+}
+.Nombre{
+	font-family: monospace;
+
+text-align: center;
+	font-size:20px;
+		color:var(--LetraGris);
+}
+
+.AG_cuadro1 p{
+	padding: 10px;
+	font-family: 'Arial';
+	font-size:15px;
+		color:var(--LetraGris);
 }
 .AG_cuadro2{
 	margin-left: 20px;
