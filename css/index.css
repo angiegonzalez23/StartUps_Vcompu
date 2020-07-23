@@ -1,3 +1,385 @@
 .texto{
 	color:var(--color1);
 }
+.CA_header{
+width:100%;
+	height: 667px;
+background-image: url(../imagen/aula.png);
+}
+.CA_logo{
+width: 238px;
+height: 122px;
+float: right;
+background-image: url(../imagen/logo_SCL.png);
+margin-top: 540px;
+margin-right: 360px;
+}
+.CA_introduccion{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+}
+.CA_article_introduccion{
+width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.CA_titulo_introduccion{
+width: auto;
+	height: auto;
+}
+.CA_linea_titulo{
+width: 200px;
+height: 3px;
+float: left;
+margin-top: 40px;
+background-color:var(--LetraGris);
+}
+
+.CA_titulo{
+font-family: 'Oswald', sans-serif;
+color: var(--LetraGris);
+font-size: 35pt;
+padding-left: 220px;
+}
+.CA_texto_introduccion{
+width: auto;
+height: auto;
+margin-top: 20px;
+}
+.CA_texto{
+	font-family: 'Roboto', sans-serif;
+	color: var(--LetraGris);
+	font-size: 15pt;
+
+}
+.CA_article_agradecimientos{
+width: 100%;
+height: auto;
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+}
+.CA_infografia{
+width: 50%;
+height:	auto;
+}
+.CA_imagan_infografia{
+width: auto;
+	height:100%;
+}
+.CA_contenedor_nombre{
+	width: 50%;
+	height:100%;
+	margin: auto;
+
+}
+.CA_nombres{
+	width: 440px;
+	height: auto;
+	margin: auto;
+	border-bottom: 3px solid var(--LetraGris);
+}
+.CA_nombre{
+	font-family: 'Roboto', sans-serif;
+	color: var(--FondoAqua);
+	font-size: 30pt;
+}
+
+/*SECTION 2 -------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.cv_Section{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.cv_Body{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.cv_Titulo{
+    width: 100%;
+    height: 80px;
+}
+
+.cv_linea_titulo{
+width: 200px;
+height: 3px;
+float: left;
+margin-top: 40px;
+background-color:var(--LetraGris);
+}
+
+.cv_titulo{
+font-family: 'Oswald', sans-serif;
+color: var(--LetraGris);
+font-size: 35pt;
+padding-left: 220px;
+}
+
+.cv_ContenedorImagenes{
+    width: 100%;
+    height: auto;
+}
+
+.cv_CuadrosImgs{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/hojas.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+
+.cv_CuadrosImgs2{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/diseno.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+    
+.cv_CuadrosImgs3{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/pcImg.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+
+.cv_CuadrosImgs4{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/pcImg2.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+
+.cv_CuadrosImgs5{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/hojas.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+
+.cv_CuadrosImgs6{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/diseno.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+
+.cv_CuadrosImgs7{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/pcImg.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+
+.cv_CuadrosImgs8{
+    width: 22%;
+    height: 450px;
+    background-image: url('../imagen/pcImg2.png');
+    float: left;
+    margin: 15px;
+    border-radius: 2.5px;
+}
+
+.cv_CuadroInterior{
+    width: 85%;
+    height: 88%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.cv_CuadroInterior p{
+    font-size: 20pt;
+    font-family: 'arial';
+    margin: auto;
+    color: white;
+}
+
+/*Tercer Section-------------------------------------*/
+
+AY_section{
+	width: 100%;
+	height: 400px;
+	background-color: var(--FondoBlanco);
+    margin-top: 30px;
+}
+
+
+ .AY_body{
+	width: 50%;
+	height: 25rem;
+	background-color: var(--FondoBlanco);
+	margin: auto;
+}
+
+
+.AY_body h1{
+	color:#13B280;
+	font-size: 20px;
+	font-family: monospace;  
+	text-align: center;
+}
+
+.AY_body p {
+	color: var(--LetraGris);
+	font-size: 15px;
+	text-align: justify;
+	margin-top: 10px;
+}
+
+.AY_cuadro1 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+
+.AY_cuadro2 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+.AY_cuadro3 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+.AY_cuadro4 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+.AY_cuadro5 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+.AY_cuadro6 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+.AY_cuadro7 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+.AY_cuadro8 img{
+	border: 100%;
+	margin-left: 40%;
+	height: 50px;
+    width: 50px;
+}
+
+
+.AY_cuadro1{
+	width:8rem;
+	height: 8rem;
+	float: left;
+	margin-top:20px;
+	background-color: var(--FondoBlanco);
+	
+}
+
+.AY_cuadro2{
+	width:8rem;
+	height: 8rem;
+	float: left;
+	margin-left: 42px;
+	margin-top:20px;
+	background-color: var(--FondoBlanco);
+}
+
+.AY_cuadro3{
+	width:8rem;
+	height: 8rem;
+	float: left;
+	margin-left: 42px;
+	margin-top:20px;
+	background-color: var(--FondoBlanco);
+}
+
+
+.AY_cuadro4{
+	width:8rem;
+	height: 8rem;
+	float: right;
+	margin-top:20px;
+	background-color: var(--FondoBlanco);
+}
+
+.AY_cuadro5{
+	width:8rem;
+	height: 8rem;
+	float: left;
+	margin-top:40px;
+	background-color: var(--FondoBlanco);
+}
+
+.AY_cuadro6{
+	width:8rem;
+	height: 8rem;
+	float: left;
+	margin-left: 42px;
+	margin-top:40px;
+	background-color: var(--FondoBlanco);
+}
+
+.AY_cuadro7{
+	width:8rem;
+	height: 8rem;
+	float: left;
+	margin-left: 42px;
+	margin-top:40px;
+	background-color: var(--FondoBlanco);
+}
+
+.AY_cuadro8{
+	width:8rem;
+	height: 8rem;
+	float: left;
+	margin-left: 42px;
+	margin-top:40px;
+	background-color: var(--FondoBlanco);
+}
+
+
+
+
