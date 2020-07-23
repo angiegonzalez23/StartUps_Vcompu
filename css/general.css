@@ -1,14 +1,14 @@
 *{
-	
+
 	margin: 0;
 	padding: 0;
 }
 .g_section{
 	width: 100%;
 	height: auto;
-	
 
-	
+
+
 }
 .g_body{
 width: 1200px;
@@ -16,11 +16,15 @@ width: 1200px;
 	margin: auto;
 	padding: 20px 0px 20px 0px;
 	box-sizing: border-box;
-		
+
 }
 /*Sección de colores generales de la página*/
 :root{
-	
-	--color1:#0e9aa7;
-	--color2:#3da4ab;
+
+	--letraBlanca:#f3ffff;
+	--LetraGris:#515151;
+	--FondoBlanco:#ffffff;
+	--FondoAqua:#13B280;
+
 }
+ 
