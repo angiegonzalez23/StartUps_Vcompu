@@ -1,77 +1,149 @@
-.RAyAG{
+.ra_ag{
 	width: 100%;
 height: auto;
 	margin-top:30px;
 	display: flex;
 	flex-direction:row;
 	
-	background-color: aquamarine;
+	
 }
-.AG_contenedor{
+.ag_contenedor{
 	width:350px;
 height: auto;
-	background-color: #f2f2f2;
-	padding: 20px 20px 20px 20px;
+	background-color:var(--FondoGris);
+	padding: 15px 8px 10px 10px;
 }
-.AG_cuadro1{
+.ag_cuadro1{
 	
-	width:250px;
-height: auto;
-	background-color: #f2f2f2;
-	border: black 0.5px solid;
-	
-}
-.AG_cuadro1 img{
-	margin-left: 10px;
-	width: 220px;
-	height: 200px;
-	border-radius:140px;
-}
-.Nombre{
-	font-family: monospace;
+	width:300px;
+height: 700px;
+	background-color:var(--FondoGris);
+	border: grey 0.7px solid;
+	align-content: center;
+	justify-content: center;
 
+}
+.ag_Perfil{
+	
+	margin-top:20px; 
+	display: block;
+margin-left: auto;
+margin-right: auto;
+	
+	
+}
+.ag_Nombre{
+	margin-top:10px; 
+		font-family: sans-serif;
 text-align: center;
-	font-size:20px;
+	font-size:25px;
 		color:var(--LetraGris);
 }
 
-.AG_cuadro1 p{
-	padding: 10px;
-	font-family: 'Arial';
+.ag_carrera{
+	margin-top:10px; 
+		font-family: sans-serif;
+text-align: center;
+	font-size:14px;
+		color:var(--LetraGris);
+}
+
+.ag_Descripcion{
+
+	padding: 50px 18px  ;
+	font-family: sans-serif;
 	font-size:15px;
 		color:var(--LetraGris);
 }
-.AG_cuadro2{
+.ag_informacion{
+
+	padding: 10px 18px  ;
+	font-family: sans-serif;
+	font-size:15px;
+		color:var(--LetraGris);
+}
+/*----------------------------------- Interta aqui-----------------------------*/
+.ra_Destacados{
+	float: right;
+	position: relative;
+	width:100%;
+	height:30px;
+	display: flex;
+	flex-direction:row;
+	
+}
+.ra_Destacados h1{
+	font-family: sans-serif;
+	margin-left: 10px;
+margin-right: 20px;
+	color:var(--LetraGris);
+}
+.ra_Destacados img{
+	
+	width: 20px;
+	height: 20px;
+}
+.ra_cuadro2{
 	margin-left: 20px;
 	width: 100%;
-height: 530px;
-	background-color: palevioletred;
-	
+    height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
+.ra_cajas{
+width: 250px;
+	height: 320px;
+	background-color: aqua;
+margin-left: 10px; 
+margin-top:10px;
+
+}
+
+.ra_cajas img{
+width: 250px;
+	height: 320px;
 	
+
+}
+hr {
+	margin-top: 250px;
+  height: 1px;
+  width: 50%;
+  background-color: black;
+	display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/*----------------------------------- termina aqui-----------------------------*/
 @media only screen and (max-width:768px){
-.Usuarios_body{
-	width: 95%;
-	height: auto;
-	margin: auto;
-	padding:  40px 0px 0px 0px;
-}
 	
-.RAyAG{
+.g_body{
+		width: 95%;	
+
+	}	
+	
+	.ra_ag{
+		
 		flex-direction: column;
 		
 	}	
 	
-	.AG_cuadro1{
+	.ag_cuadro1{
 	
-	width: 100%;
+	width: 95%;
 		height: auto;
 	
 }
-.AG_cuadro2{
-	margin-left: 0px;
-	width: 80%;
-		height: 300px;
+	.ag_contenedor{
+	
+	width: 90%;
+		height: auto;
+}
+.ra_cuadro2{
+	
+	width: 95%;
+		height: auto;
 	
 }
-	}
+}
