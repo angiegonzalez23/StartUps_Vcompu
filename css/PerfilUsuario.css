@@ -68,7 +68,7 @@
 	color: var(--LetraGris);
 }
 
-< !-------------------------------------------------------------------------------------------->.ra_Destacados {
+.ra_Destacados {
 	float: right;
 	position: relative;
 	width: 100%;
@@ -126,7 +126,7 @@ hr {
 	margin-right: auto;
 }
 
-< !-------------------------------------------------------------------------------------------->@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
 
 	.g_body {
 		width: 95%;
