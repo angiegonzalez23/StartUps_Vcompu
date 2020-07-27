@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
+<link rel="stylesheet" href="css/proyectos.css">
 
         <link rel="stylesheet" href="css/general.css">
 		<link rel="stylesheet" href="css/nav.css">
@@ -45,16 +45,60 @@
 
 
 	<!--SECTION-->
+<!--Parte de David-->
+	<div class="imagen_patio">
+	  <img src="imgproyectos/fondo.png" alt=""><p>Información de los <br>de la institución</p>
+	  <p class="grados">GRADOS</p>
+	</div>
+	<div class="destacados">
 
+	<hr> <p class="destacados_texto">Destacados</p>
+	<h1 class="estrellas"><img src="imgproyectos/estrellas.png" alt=""></h1>
+	</div>
 
+	</head>
+	<body>
 
-	<section class="g_section">
+<!--Destacados, parte de David-->
+	<div class="slideshow-container">
 
-	<div class="g_body"> </div>
-	<p class="texto"> holaaa </p>
-	</section>
+	<div class="mySlides fade">
+	 <img src="imgproyectos/personaje.png">
+	 <p class="angela">La alumna "Angela" crea un diseño de <br> personaje
+	 en Adobe Ilustration</p>
+	 <img src="imgproyectos/lago.png">
+	 <p class="benito">El alumno "Benito" crea una <br>ilustración en base a un lago</p>
+	  <img src="imgproyectos/portada.png">
+	  <p class="hanna">La alumna Hanna crea una<br>portada para un libro ilustrativo</p>
+	</div>
 
+	<div class="mySlides fade">
+	  <img src="imgproyectos/personaje.png">
+		<img src="imgproyectos/lago.png">
+	  <img src="imgproyectos/portada.png">
+	</div>
 
+	<div class="mySlides fade">
+	  <img src="imgproyectos/portada.png">
+	  <img src="imgproyectos/personaje.png">
+	  <img src="imgproyectos/lago.png">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="imgproyectos/lago.png">
+	  <img src="imgproyectos/personaje.png">
+	  <img src="imgproyectos/portada.png">
+	</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	</div>
 
 
 
@@ -65,7 +109,28 @@
 
 
 	<!--JAVASCRIPT-->
+	<!--Script del slider,Parte de David-->
+	<script>
+	var slideIndex = 0;
+	showSlides();
 
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}
+	  for (i = 0; i < dots.length; i++) {
+	    dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 3000);
+	}
+	</script>
 
 
 
