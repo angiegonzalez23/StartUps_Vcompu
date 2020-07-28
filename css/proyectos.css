@@ -4,47 +4,47 @@
 }
 /*---------------------Información---------------------------*/
 .imagen_patio img{
-  width: 1349px;
-  height:400px;
+  width: 100%;
+  height:500px;
 }
 .imagen_patio p{
   font-family: fantasy;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 120px;
   color: white;
-  margin-top: -245px;
+  margin-top: -310px;
 }
 .imagen_patio .grados{
   font-family: fantasy;
-  padding-top: 144px;
-  margin-left: 440px;
-  font-size: 45px;
+  padding-top: 183px;
+  margin-left: 515px;
+  font-size: 55px;
   color:#7DE6E6;
 }
 /*-----------------------------Destacados-----------------------------*/
 hr{
-  width: 28px;
+  width: 38px;
   height: 2px;
   background-color: #434545;
-  margin-top: 800px;
+  margin-top: 830px;
   margin-left: 130px;
 }
 .destacados p{
-  font-size: 38px;
+  font-size: 45px;
   color: #434545;
   font-family:fantasy;
-  margin-left: 170px;
+  margin-left: 190px;
   margin-top: -25px;
 }
 .estrellas{
   width: 100px;
   height: 25px;
-  margin-left: 365px;
-  margin-top: -49px;
+  margin-left: 420px;
+  margin-top: -62px;
 }
 .estrellas img{
-  width: 155px;
-  height: 55px;
+  width: 210px;
+  height: 75px;
 }
 .slideshow-container {
   max-width: 1000px;
@@ -52,7 +52,7 @@ hr{
   margin: auto;
 }
 .slideshow-container img{
-  width: 230px;
+  width: 280px;
   margin-left: 35px;
   margin-right: -10px;
   position:relative;
@@ -62,32 +62,32 @@ hr{
   position: absolute;
 }
 .angela{
-  top: 280px;
-  margin-left: 41px;
-  font-size: 11px;
+  top: 340px;
+  margin-left: 42px;
+  font-size: 13.4px;
   font-family:monospace;
   color:white;
   text-align: center;
 }
 .benito{
-  top: 280px;
-  margin-left: 320px;
-  font-size: 11px;
+  top: 340px;
+  margin-left: 378px;
+  font-size: 13.4px;
   font-family:monospace;
   color:white;
   text-align: center;
 }
 .hanna{
-  top: 280px;
-  margin-left: 567px;
-  font-size: 11px;
+  top: 340px;
+  margin-left: 670px;
+  font-size: 13.4px;
   font-family:monospace;
   color:white;
   text-align: center;
 }
 .dot {
-  margin-right: 180px;
-  margin-left: -170px;
+  margin-right: 120px;
+  margin-left: -110px;
   height: 15px;
   width: 15px;
 
