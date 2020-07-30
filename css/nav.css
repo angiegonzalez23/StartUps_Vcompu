@@ -18,15 +18,61 @@ header{
   margin-top: 7.5px;
   margin-left: 200px;
 }
-ul{
+
+----------------------------------
+.menu ul li {
+  background-color: #00a288
+}
+
+.menu ul {
   display: flex;
   flex-direction: row;
-  margin-left:20px;
-  margin-top: 15px;
+  margin-left:50px;
+  margin-top: 10px;
+  list-style: none;
 }
-li{
-  color: white;
-  font-family: Arial;
-  font-size: 13px;
-  padding-left: 10px;
+
+.menu ul a {
+    display:block;
+    text-decoration:none;
+    font-size:13px;
+    padding:10px;
+    font-family:Arial;
+    color: white;
+}
+
+.menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.menu ul li:hover {
+    background:#00a288;
+}
+
+.menu ul ul {
+    display:none;
+    position:absolute;
+    top:15px;
+    left:0;
+    padding:0;
+}
+
+.menu ul ul li {
+    float:none;
+    width:130px
+}
+
+.menu ul ul a {
+    line-height:100%;
+    padding:10px 15px;
+}
+
+.menu ul li:hover > ul {
+    display:block;
+}
+.carreras{
+  left: 250px;
 }
