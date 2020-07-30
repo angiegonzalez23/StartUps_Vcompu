@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+/*JORGE Banners con informacion*/
+.Grado_{
+    width: 100%;
+    height: 500px;
+    background-image: url("../imgperfilgrado/team.png");
+  }
+  .text_grado{
+    width: 45%;
+    height: 200px;
+    margin-top: 145px;
+    margin-left: 320px;
+    flex-direction: column;
+    transition: 1s;
+  }
+#Titulo_grado{
+  font-size: 50px;
+    font-family: 'Rationale', sans-serif;
+    color:white;
+
+  }
+  #Titulo_grado2{
+    text-align: justify;
+      font-size: 30px;
+      font-family: 'Rationale', sans-serif;
+      color:var(--letraBlanca);
+  }
+/*________________________________/*
