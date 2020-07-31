@@ -109,6 +109,122 @@ hr{
   animation-name: fade;
   animation-duration: 1.5s;
 }
+/************Yadira*************/
+#blog{
+  margin-top: 350px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.yc_contenedor{
+  justify-content: center;
+  width: 600px;
+  height: auto;
+  margin: auto;
+}
+.yc_item{
+  width: 100%;
+  height: auto;
+  position: relative;
+	overflow: hidden;
+  margin-top: 10px;
+}
+.yc_img{
+  width: 350px;
+  display:flow-root;
+  margin:auto;
+}
+.yc_text{
+  width: 350px;
+	position: absolute;
+	bottom: 0px;
+	padding: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+
+	background: rgba(0,0,0,0.5);
+    text-align: center;
+    margin-left: 125px;
+
+}
+.yc_text p{
+	text-align: justify;
+    color: white;
+    font-size: 18px;
+    transform: translate(0%);
+}
+
+.yc_item:hover .portafolio-text{
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+.yc_linea{
+    width: 360px;
+    margin-top: 65px;
+    margin-left: 26%;
+    background: gray;
+    height: 2px;
+    border-radius: 0.25px;
+
+ }
+/*********Melanie*********/
+
+.ms_contenedor{
+  width: 600px;
+  height: auto;
+}
+.ms_linea{
+    width: 360px;
+    margin-bottom: 65px;
+    margin-left: 26%;
+    background: gray;
+    height: 2px;
+    border-radius: 0.25px;
+
+ }
+.ms_item{
+  width: 100%;
+  height: auto;
+  position: relative;
+	overflow: hidden;
+  margin-top: 10px;
+  padding: auto;
+}
+.ms_img{
+  width: 350px;
+  display:flow-root;
+  margin: auto;
+}
+.ms_text{
+  width: 350px;
+	position: absolute;
+	bottom: 0px;
+	padding: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+
+	background: rgba(0,0,0,0.5);
+    text-align: center;
+    margin-left: 125px;
+
+}
+.ms_text p{
+	text-align: justify;
+    color: white;
+    font-size: 18px;
+    transform: translate(0%);
+    margin: auto;
+}
+
+.ms_item:hover .portafolio-text{
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
