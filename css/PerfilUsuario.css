@@ -118,12 +118,153 @@
 
 hr {
 	margin-top: 250px;
-	height: 1px;
+	height: 3px;
 	width: 50%;
 	background-color: black;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+/*--------------------css pili y roberto------*/
+.rc_pe {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.rc_Titulo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: var(--LetraGris);
+}
+.rc_cajaPrincipal {
+  width: 500px;
+  height: 600px;
+  background-color: #00a9aa;
+float: left;
+  margin-top: 100px;
+}
+.rc_cajaImg {
+  width: 500px;
+  height: 600px;
+  background-image: url(../imgperfilusuario/arboles.png);
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+}
+.rc_cajaTexto {
+  width: 500px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+}
+
+.rc_cajaTexto p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+/*---------*/
+.pe_cajaPrincipal {
+	
+  width: 500px;
+  height: 600px;
+  background-color: #00a9aa;
+float: right;
+	margin-left: 80px;
+  margin-top: 300px;
+}
+.pe_cajaImg {
+  width: 500px;
+  height: 600px;
+  background-image: url(../imgperfilusuario/arboles.png);
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  right: 30px;
+  bottom: 30px;
+}
+.pe_cajaTexto {
+  width: 500px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+}
+
+.pe_cajaTexto p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+/*---------*/
+
+.pe1_cajaPrincipal {
+  width: 500px;
+  height: 600px;
+  background-color: #00a9aa;
+float: left;
+  margin-top: 100px;
+}
+.pe1_cajaImg {
+  width: 500px;
+  height: 600px;
+  background-image: url(../imgperfilusuario/arboles.png);
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+}
+.pe1_cajaTexto {
+  width: 500px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+}
+
+.pe1_cajaTexto p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+/*---------*/
+.rc_TextoF{
+width: 400px;
+height: 200px;
+float: right;
+	margin: auto;
+	
+}
+.rc_TextoF h1{
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: var(--LetraGris);
+}
+.rc_TextoF p{
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: var(--LetraGris);
 }
 
 @media only screen and (max-width:768px) {
@@ -134,28 +275,81 @@ hr {
 	}
 
 	.ra_ag {
-
 		flex-direction: column;
 
 	}
 
 	.ag_cuadro1 {
-
+margin: auto;
 		width: 95%;
 		height: auto;
 
 	}
 
 	.ag_contenedor {
-
+margin: auto;
 		width: 90%;
 		height: auto;
 	}
 
 	.ra_cuadro2 {
-
+     justify-content: center;
+  align-items: center;
 		width: 95%;
 		height: auto;
 
+	}
+	.ra_cajas{
+		
+		margin: auto;
+		
+	}	
+	.ra_Destacados{
+		margin-top: 20px;
+		justify-content: center;
+  align-items: center;
+	}
+	
+	.rc_pe {
+ 
+		width: 95%;
+		height: auto;
+		margin: auto;
+	
+	}
+	/*---roberto caja 1---*/
+	.rc_cajaPrincipal{
+		
+	width: 95%;
+	}
+	.rc_cajaImg{
+	width: 95%;	
+	}
+	.rc_cajaTexto {
+		width: 95%;	
+	}
+	/*---pili caja 2---*/
+	.pe_cajaPrincipal{
+    width: 95%;
+	}
+	.pe_cajaImg{
+	width: 95%;	
+	}
+	.pe_cajaTexto{
+		width: 95%;	
+	}
+	/*---pili caja 3---*/
+	.pe1_cajaPrincipa{
+	
+width: 95%;
+	}
+	.pe1_cajaImg{
+	width: 95%;	
+	}
+	.pe1_cajaTexto {
+		width: 95%;	
+	}
+	.rc_TextoF{
+		margin-top: 30px;
 	}
 }
