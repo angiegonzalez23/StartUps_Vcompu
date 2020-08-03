@@ -248,7 +248,7 @@ padding-left: 220px;
 .AY_body h1{
 	color:#13B280;
 	font-size: 20px;
-	font-family: sans-serif;
+	font-family: sans-serif;  
 	text-align: center;
 }
 
@@ -261,50 +261,83 @@ padding-left: 220px;
 }
 
 .AY_cuadro1 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
 }
 
 .AY_cuadro2 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
 }
+
 .AY_cuadro3 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
 }
 .AY_cuadro4 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
 }
 .AY_cuadro5 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
 }
 .AY_cuadro6 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
 }
 .AY_cuadro7 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
 }
 .AY_cuadro8 img{
-	border: 100%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: -10px -10px -10px -10px; 
+	-webkit-border-radius: 100px 100px 100px 100px;
+	border: 1px solid crimson;
+	padding: 10px;
 	margin-left: 40%;
 	height: 50px;
     width: 50px;
@@ -317,7 +350,7 @@ padding-left: 220px;
 	float: left;
 	margin-top: 75px;
 	margin-left: 70px;
-	background-color: var(--FondoBlanco);
+	background-color: var(--FondoBlanco);	
 }
 
 .AY_cuadro2{
