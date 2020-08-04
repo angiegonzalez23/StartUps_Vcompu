@@ -31,3 +31,33 @@
       color:var(--letraBlanca);
   }
 /*________________________________/*
+
+
+/*ESDRAS Banners con informacion*/
+
+.Imagen_alumnos{
+  width: 100%;
+  height: 300px;
+  background-image: url("../imgperfilgrado/ciudad.png");
+  margin-top: 15px;
+}
+.tabla{
+  text-align: center;
+  margin-left: 7.5%;
+  font-family: 'Rationale', sans-serif;
+}
+
+#Titulo_alumnos{
+  font-size: 50px;
+  font-family: 'Rationale', sans-serif;
+  color:white;
+  margin-left: 15%;
+  padding-top: 15px;
+  }
+
+  #Nombres{
+  font-size: 20px;
+  font-family: 'Rationale', sans-serif;
+  color:var(--letraBlanca);
+  }
+/*________________________________/*
