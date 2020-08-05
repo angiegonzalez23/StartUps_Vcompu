@@ -26,20 +26,20 @@ hr{
   width: 38px;
   height: 2px;
   background-color: #434545;
-  margin-top: 360px;
-  margin-left: 370px;
+  margin-top: 1000px;
+  margin-left: 100px;
 }
 .dj_destacados p{
   font-size: 45px;
   color: #434545;
   font-family:fantasy;
-  margin-left: 420px;
+  margin-left: 150px;
   margin-top: -25px;
 }
 .dj_estrellas{
   width: 100px;
   height: 25px;
-  margin-left: 650px;
+  margin-left: 375px;
   margin-top: -63px;
 }
 .dj_estrellas img{
@@ -47,9 +47,10 @@ hr{
   height: 75px;
 }
 .dj_slideshow-container {
-  width: 1100px;
+  width: 1200px;
   position: relative;
-  margin-left: 370px
+  margin-left: 100px;
+
 
 }
 .dj_slideshow-container img{
@@ -87,8 +88,8 @@ hr{
   text-align: center;
 }
 .dot {
-    margin-right: -580px;
-    margin-left: 600px;
+    margin-right: -15px;
+    margin-left: 30px;
     height: 15px;
     width: 15px;
 
@@ -111,122 +112,10 @@ hr{
   animation-duration: 1.5s;
 }
 /************Yadira*************/
-#blog{
-  margin-top: 350px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-}
-.yc_contenedor{
-  justify-content: center;
-  width: 600px;
-  height: auto;
-  margin-top:-100px;
-}
-.yc_item{
-  width: 100%;
-  height: auto;
-  position: relative;
-	overflow: hidden;
-  margin-top: 50px;
-}
-.yc_img{
-  width: 350px;
-  display:flow-root;
-  margin:auto;
-}
-.yc_text{
-  width: 350px;
-	position: absolute;
-	bottom: 0px;
-	padding: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
 
-	background: rgba(0,0,0,0.5);
-    text-align: center;
-    margin-left: 125px;
-
-}
-.yc_text p{
-	text-align: justify;
-    color: white;
-    font-size: 18px;
-    transform: translate(0%);
-}
-
-.yc_item:hover .portafolio-text{
-	-webkit-transform: translateY(0%);
-	-ms-transform: translateY(0%);
-	transform: translateY(0%);
-}
-.yc_linea{
-    width: 360px;
-    margin-top: 65px;
-    margin-left: 26%;
-    background: gray;
-    height: 2px;
-    border-radius: 0.25px;
-
- }
 /*********Melanie*********/
 
-.ms_contenedor{
-  width: 600px;
-  height: auto;
-}
-.ms_linea{
-    width: 360px;
-    margin-bottom: 65px;
-    margin-left: 26%;
-    background: gray;
-    height: 2px;
-    margin-top: 40px;
-    border-radius: 0.25px;
 
- }
-.ms_item{
-  width: 100%;
-  height: auto;
-  position: relative;
-	overflow: hidden;
-  margin-top: 50px;
-  padding: auto;
-}
-.ms_img{
-  width: 350px;
-  display:flow-root;
-  margin: auto;
-}
-.ms_text{
-  width: 350px;
-	position: absolute;
-	bottom: 0px;
-	padding: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-
-	background: rgba(0,0,0,0.5);
-    text-align: center;
-    margin-left: 125px;
-
-}
-.ms_text p{
-	text-align: justify;
-    color: white;
-    font-size: 18px;
-    transform: translate(0%);
-    margin: auto;
-}
-
-.ms_item:hover .portafolio-text{
-	-webkit-transform: translateY(0%);
-	-ms-transform: translateY(0%);
-	transform: translateY(0%);
-}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
