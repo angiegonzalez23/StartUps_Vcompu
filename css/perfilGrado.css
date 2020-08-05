@@ -1,63 +1,87 @@
-*{
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
+
+
 /*JORGE Banners con informacion*/
-.Grado_{
+
+.Grado_ {
     width: 100%;
     height: 500px;
     background-image: url("../imgperfilgrado/team.png");
-  }
-  .text_grado{
+}
+
+.text_grado {
     width: 45%;
     height: 200px;
     margin-top: 145px;
     margin-left: 320px;
     flex-direction: column;
     transition: 1s;
-  }
-#Titulo_grado{
-  font-size: 50px;
-    font-family: 'Rationale', sans-serif;
-    color:white;
+}
 
-  }
-  #Titulo_grado2{
+#Titulo_grado {
+    font-size: 50px;
+    font-family: 'Rationale', sans-serif;
+    color: white;
+}
+
+#Titulo_grado2 {
     text-align: justify;
-      font-size: 30px;
-      font-family: 'Rationale', sans-serif;
-      color:var(--letraBlanca);
-  }
+    font-size: 30px;
+    font-family: 'Rationale', sans-serif;
+    color: var(--letraBlanca);
+}
+
+
 /*________________________________/*
 
 
 /*ESDRAS Banners con informacion*/
 
-.Imagen_alumnos{
-  width: 100%;
-  height: 300px;
-  background-image: url("../imgperfilgrado/ciudad.png");
-  margin-top: 15px;
-}
-.tabla{
-  text-align: center;
-  margin-left: 7.5%;
-  font-family: 'Rationale', sans-serif;
+.Imagen_alumnos {
+    width: 100%;
+    height: 300px;
+    background-image: url("../imgperfilgrado/ciudad.png");
+    margin-top: 15px;
 }
 
-#Titulo_alumnos{
-  font-size: 50px;
-  font-family: 'Rationale', sans-serif;
-  color:white;
-  margin-left: 15%;
-  padding-top: 15px;
-  }
+#Titulo_alumnos {
+    font-size: 50px;
+    font-family: 'Rationale', sans-serif;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
-  #Nombres{
-  font-size: 20px;
-  font-family: 'Rationale', sans-serif;
-  color:var(--letraBlanca);
-  }
+#tabla {
+    text-align: center;
+    font-family: 'Rationale', sans-serif;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+.encabezadoAlumnos {
+    background-color: purple;
+}
+
+.encabezadoAlumnos>td {
+    color: #ffffff;
+}
+
+.colum0 {
+    width: 50px;
+    height: 25px;
+}
+
+.colum1 {
+    width: 700px;
+}
+
+
 /*________________________________/*

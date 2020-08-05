@@ -1,362 +1,367 @@
 .ra_ag {
-	width: 100%;
-	height: auto;
-	margin-top: 30px;
-	display: flex;
-	flex-direction: row;
-
-
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .ag_contenedor {
-	width: 350px;
-	height: auto;
-	background-color: var(--FondoGris);
-	padding: 15px 8px 10px 10px;
+    width: 350px;
+    height: 750px;
+    float: left;
+    background-color: var(--FondoGris);
+    padding-top: 20px;
 }
 
 .ag_cuadro1 {
-
-	width: 300px;
-	height: 700px;
-	background-color: var(--FondoGris);
-	border: grey 0.7px solid;
-	align-content: center;
-	justify-content: center;
-
+    width: 300px;
+    height: 700px;
+    border: grey 0.7px solid;
+    margin: auto;
 }
 
 .ag_Perfil {
-
-	margin-top: 20px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-
+    margin-top: 20px;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
 }
 
-.ag_Nombre {
-	margin-top: 10px;
-	font-family: sans-serif;
-	text-align: center;
-	font-size: 25px;
-	color: var(--LetraGris);
+#ag_Nombre {
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: var(--LetraGris);
 }
 
-.ag_carrera {
-	margin-top: 10px;
-	font-family: sans-serif;
-	text-align: center;
-	font-size: 14px;
-	color: var(--LetraGris);
+#ag_carrera {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: var(--LetraGris);
+}
+
+.ag_userAficion {
+    padding: 20px 0px 0px 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: var(--LetraGris);
 }
 
 .ag_Descripcion {
-
-	padding: 50px 18px;
-	font-family: sans-serif;
-	font-size: 15px;
-	color: var(--LetraGris);
+    padding: 20px 0px 0px 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: var(--LetraGris);
 }
 
 .ag_informacion {
-
-	padding: 10px 18px;
-	font-family: sans-serif;
-	font-size: 15px;
-	color: var(--LetraGris);
+    padding: 5px 10px 5px 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: purple;
 }
 
-.ra_Destacados {
-	float: right;
-	position: relative;
-	width: 100%;
-	height: 30px;
-	display: flex;
-	flex-direction: row;
+#especialidad1 {
+    color: var(--LetraGris);
+}
 
+#especialidad2 {
+    color: var(--LetraGris);
+}
+
+.rm_stil {
+    color: purple;
+}
+
+
+/*--------------------*/
+
+.ra_Destacados {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
 }
 
 .ra_Destacados h1 {
-	font-family: sans-serif;
-	margin-left: 10px;
-	margin-right: 20px;
-	color: var(--LetraGris);
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: var(--LetraGris);
 }
 
 .ra_Destacados img {
-
-	width: 20px;
-	height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .ra_cuadro2 {
-	margin-left: 20px;
-	width: 100%;
-	height: auto;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    width: 850px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
 }
 
 .ra_cajas {
-	width: 250px;
-	height: 320px;
-	background-color: aqua;
-	margin-left: 10px;
-	margin-top: 10px;
-
+    width: 250px;
+    height: 320px;
+    background-color: aqua;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
 }
 
 .ra_cajas img {
-	width: 250px;
-	height: 320px;
-
-
+    width: 250px;
+    height: 320px;
 }
 
 hr {
-	margin-top: 250px;
-	height: 3px;
-	width: 50%;
-	background-color: black;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    margin-top: 250px;
+    height: 3px;
+    width: 50%;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 /*--------------------css pili y roberto------*/
+
 .rc_pe {
-	width: 100%;
-	height: auto;
-	margin-top: 30px;
-display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.rc_Titulo{
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 25px;
-	color: var(--LetraGris);
+.rc_Titulo {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: var(--LetraGris);
 }
+
 .rc_cajaPrincipal {
-  width: 500px;
-  height: 600px;
-  background-color: #00a9aa;
-float: left;
-  margin-top: 100px;
+    width: 500px;
+    height: 600px;
+    background-color: #00a9aa;
+    float: left;
+    margin-top: 100px;
 }
-.rc_cajaImg {
-  width: 500px;
-  height: 600px;
-  background-image: url(../imgperfilusuario/arboles.png);
-  background-size: cover;
-  background-position: center;
 
-  position: relative;
-  left: 30px;
-  bottom: 30px;
+.rc_cajaImg {
+    width: 500px;
+    height: 600px;
+    background-image: url(../imgperfilusuario/arboles.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
 }
+
 .rc_cajaTexto {
-  width: 500px;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  bottom: -15px;
-  left: -15px;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
 }
 
 .rc_cajaTexto p {
-  color: #ffffff;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
 }
+
 
 /*---------*/
-.pe_cajaPrincipal {
-  width: 500px;
-  height: 600px;
-  background-color: #00a9aa;
-float: right;
-	margin-left: 80px;
-  margin-top: 300px;
-}
-.pe_cajaImg {
-  width: 500px;
-  height: 600px;
-  background-image: url(../imgperfilusuario/arboles.png);
-  background-size: cover;
-  background-position: center;
 
-  position: relative;
-  right: 30px;
-  bottom: 30px;
+.pe_cajaPrincipal {
+    width: 500px;
+    height: 600px;
+    background-color: #00a9aa;
+    float: right;
+    margin-left: 80px;
+    margin-top: 300px;
 }
+
+.pe_cajaImg {
+    width: 500px;
+    height: 600px;
+    background-image: url(../imgperfilusuario/arboles.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+}
+
 .pe_cajaTexto {
-  width: 500px;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  bottom: -15px;
-  right: -15px;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
 }
 
 .pe_cajaTexto p {
-  color: #ffffff;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
 }
+
+
 /*---------*/
 
 .pe1_cajaPrincipal {
-  width: 500px;
-  height: 600px;
-  background-color: #00a9aa;
-float: left;
-  margin-top: 100px;
+    width: 500px;
+    height: 600px;
+    background-color: #00a9aa;
+    float: left;
+    margin-top: 100px;
 }
-.pe1_cajaImg {
-  width: 500px;
-  height: 600px;
-  background-image: url(../imgperfilusuario/arboles.png);
-  background-size: cover;
-  background-position: center;
 
-  position: relative;
-  left: 30px;
-  bottom: 30px;
+.pe1_cajaImg {
+    width: 500px;
+    height: 600px;
+    background-image: url(../imgperfilusuario/arboles.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
 }
+
 .pe1_cajaTexto {
-  width: 500px;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  bottom: -15px;
-  left: -15px;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
 }
 
 .pe1_cajaTexto p {
-  color: #ffffff;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
 }
+
+
 /*---------*/
-.rc_TextoF{
-width: 400px;
-height: 200px;
-float: right;
-	margin: auto;
-	
+
+.rc_TextoF {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin: auto;
 }
-.rc_TextoF h1{
-	text-align: center;
-	font-size: 20px;
-	font-family: sans-serif;
-	color: var(--LetraGris);
+
+.rc_TextoF h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: var(--LetraGris);
 }
-.rc_TextoF p{
-	text-align: center;
-	font-size: 25px;
-	font-family: sans-serif;
-	color: var(--LetraGris);
+
+.rc_TextoF p {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: var(--LetraGris);
 }
 
 @media only screen and (max-width:768px) {
-
-	.g_body {
-		width: 95%;
-
-	}
-
-	.ra_ag {
-		flex-direction: column;
-
-	}
-
-	.ag_cuadro1 {
-margin: auto;
-		width: 95%;
-		height: auto;
-
-	}
-
-	.ag_contenedor {
-margin: auto;
-		width: 90%;
-		height: auto;
-	}
-
-	.ra_cuadro2 {
-     justify-content: center;
-  align-items: center;
-		width: 95%;
-		height: auto;
-
-	}
-	.ra_cajas{
-		
-		margin: auto;
-		
-	}	
-	.ra_Destacados{
-		margin-top: 20px;
-		justify-content: center;
-  align-items: center;
-	}
-	
-	.rc_pe {
- 
-		width: 95%;
-		height: auto;
-		 justify-content: center;
-  align-items: center;
-		margin-left: 20px;
-	
-	}
-	/*---roberto caja 1---*/
-	.rc_cajaPrincipal{
-		
-	width: 95%;
-	}
-	.rc_cajaImg{
-	width: 95%;	
-	}
-	.rc_cajaTexto {
-		width: 95%;	
-	}
-	/*---pili caja 2---*/
-	.pe_cajaPrincipal{
-		float: right;
-    width: 95%;
-		margin-left:0;
-		
-	}
-	.pe_cajaImg{
-	width: 95%;	
-		float: right;
-		margin-left:0;
-	
-	}
-	.pe_cajaTexto{
-		width: 95%;	
-	}
-	/*---pili caja 3---*/
-	.pe1_cajaPrincipa{
-	
-width: 95%;
-	}
-	.pe1_cajaImg{
-	width: 95%;	
-	}
-	.pe1_cajaTexto {
-		width: 95%;	
-	}
-	.rc_TextoF{
-		margin-top: 30px;
-	}
+    .g_body {
+        width: 95%;
+    }
+    .ra_ag {
+        flex-direction: column;
+    }
+    .ag_cuadro1 {
+        margin: auto;
+        width: 95%;
+        height: auto;
+    }
+    .ag_contenedor {
+        margin: auto;
+        width: 90%;
+        height: auto;
+    }
+    .ra_cuadro2 {
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: auto;
+    }
+    .ra_cajas {
+        margin: auto;
+    }
+    .ra_Destacados {
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rc_pe {
+        width: 95%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    /*---roberto caja 1---*/
+    .rc_cajaPrincipal {
+        width: 95%;
+    }
+    .rc_cajaImg {
+        width: 95%;
+    }
+    .rc_cajaTexto {
+        width: 95%;
+    }
+    /*---pili caja 2---*/
+    .pe_cajaPrincipal {
+        float: right;
+        width: 95%;
+        margin-left: 0;
+    }
+    .pe_cajaImg {
+        width: 95%;
+        float: right;
+        margin-left: 0;
+    }
+    .pe_cajaTexto {
+        width: 95%;
+    }
+    /*---pili caja 3---*/
+    .pe1_cajaPrincipa {
+        width: 95%;
+    }
+    .pe1_cajaImg {
+        width: 95%;
+    }
+    .pe1_cajaTexto {
+        width: 95%;
+    }
+    .rc_TextoF {
+        margin-top: 30px;
+    }
 }
