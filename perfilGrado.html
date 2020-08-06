@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/estilofooter.css">
     <link rel="stylesheet" href="css/perfilGrado.css">
+    <link rel="stylesheet" href="css/PerfilUsuario.css">
     <link href="https://fonts.googleapis.com/css2?family=Rationale&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
 
@@ -60,71 +61,140 @@
     <!--SECTION-->
 
 
-
-    <section class="g_section">
-
-        <div class="g_body"> </div>
-
-        <!--JORGE-->
-        <!--Banners con informacion-->
-        <div class="Grado_">
-            <br>
-            <div class="text_grado">
-                <h1 id="Titulo_grado">Caracteristicas del Grado</h1>
-                <br>
-                <p id="Titulo_grado2"> La felicidad es el estado emocional de una persona feliz es la sensacion de bienestar y realizacion de experimentarnos cuando alcanzamos nuestras metas deseos y propositos; es un momento duradero de satisfaccion, donde no hay necesidadades
-                    que apremien, ni lamentos que atormenten </p>
+    <!--JORGE-->
+    <!--Banners con informacion-->
+    <section class="g_section activado Grado">
+        <div class="g_body ra_ag">
+            <div class="Grado">
+                <div class="text_grado">
+                    <h1 id="Titulo_grado">Caracteristicas del Grado</h1>
+                    <br>
+                    <p id="Titulo_grado2">
+                        La felicidad es el estado emocional de una persona feliz es la sensacion de bienestar y realizacion de experimentarnos cuando alcanzamos nuestras metas deseos y propositos; es un momento duradero de satisfaccion, donde no hay necesidadades que apremien,
+                        ni lamentos que atormenten
+                    </p>
+                </div>
             </div>
+
+
+            <section class="g_section ">
+                <div class="g_body estiliExtra">
+                    <h1 id="Titulo_alumnos">Alumnos</h1>
+
+                    <div id="tabla">
+
+                        <div>
+                            <div id="colum0">#</div>
+                            <div id="colum1" class="t1">Alumno</div>
+                            <div id="colum2">proyectos</div>
+                            <div id="colum3">Estrellas</div>
+                        </div>
+
+                        <div>
+                            <a href="perfilUsuario.html">
+                                <div id="colum0">1</div>
+                                <div id="colum1" class="t1">Ana Violeta Reyes Toledo</div>
+                                <div id="colum2">proyectos</div>
+                                <div id="colum3">Estrellas</div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
         </div>
-        <!--Banners con informacion-->
+        </section>
+
+        <!------------------------SECCIÓN DEL PERFIL DEL ALUMNO--------------------------------->
+
+        <section class="g_section activado">
+            <div class="g_body ra_ag">
+
+                <!------ Principio del section de Ruben y angie-------->
+                <div class="ag_contenedor">
+                    <div class="ag_cuadro1">
+                        <div id="imgU">
+                            <img class="ag_Perfil" src="imgperfilusuario/VMagisterio/violeta.jpg">
+                        </div>
+
+                        <h1 id="ag_Nombre"> Angela Hernández</h1>
+                        <h1 id="ag_carrera">Diseño gráfico</h1>
+                        <p class="ag_informacion">Especialidad: <span id="especialidad1">cantor</span></p>
+                        <p class="ag_informacion">Especialidad: <span id="especialidad2">cantor</span></p>
+
+                        <p class="ag_Descripcion">
+                            <span class="rm_stil">Sobre mi:</span>
+                            <span id="infoDescripcion"></span>
+                        </p>
+
+                    </div>
+                </div>
+                <!-------------------------------------------------------------------------------------------->
+
+                <div class="ra_cuadro2">
+
+                    <div class="ra_Destacados">
+                        <h1> Destacados </h1><img src="imgperfilusuario/estrella.png">
+                        <img src="imgperfilusuario/estrella.png">
+                        <img src="imgperfilusuario/estrella.png">
+                        <img src="imgperfilusuario/estrella.png">
+                        <img src="imgperfilusuario/estrella.png">
+                    </div>
+
+                    <div id="rm_cajaContenidoUsuario">
 
 
-        <section class="g_section Imagen_alumnos">
-            <div class="g_body">
-                <h1 id="Titulo_alumnos">Alumnos</h1>
-                <table id="tabla" style="width: 85%">
+                        <div>
+                            <a href="">
+                                <div class="ra_cajas">
+                                    <div class="cajaImgProyecto">
+                                        <img src="imgperfilusuario/VMagisterio/defoult.jpg">
+                                    </div>
+                                    <p id="tituloProyec">Titulo proyecto</p>
+                                </div>
+                            </a>
+                        </div>
 
-                    <tr class="encabezadoAlumnos">
-                        <td class="colum0">#</td>
-                        <td class="colum1">Alumno</td>
-                        <td class="colum2">proyectos</td>
-                        <td class="colum3">Estrellas</td>
-                    </tr>
+                    </div>
+                </div>
 
-                </table>
             </div>
         </section>
 
 
 
-        <!--FOOTER-->
-        <footer>
-            <div class="container--footer--all">
-                <div class="container--body">
-                    <div class="frase">
-                        <br>
-                        <p>________________________________________________________________________________________________</p>
-                        <p>Direccion 4ta calle 0-05 zona 1 Mixco km 16.5 frente a licorera nacional</p>
-                        <br>
-                        <p>Telefono: 2438-8050 o 3215-0177</p>
-                        <p>________________________________________________________________________________________________</p>
-                        <img class="Facebook" src="imagenesfooter/instagram.png">
-                        <img class="Instagram" src="imagenesfooter/facebook.png">
-                        <img class="WhatsApp" src="imagenesfooter/whatsapp.png">
-                        <img class="Scl" src="imagenesfooter/scl.png">
-                    </div>
+
+        <!--FOOTER
+    <footer>
+        <div class="container--footer--all">
+            <div class="container--body">
+                <div class="frase">
+                    <br>
+                    <p>________________________________________________________________________________________________</p>
+                    <p>Direccion 4ta calle 0-05 zona 1 Mixco km 16.5 frente a licorera nacional</p>
+                    <br>
+                    <p>Telefono: 2438-8050 o 3215-0177</p>
+                    <p>________________________________________________________________________________________________</p>
+                    <img class="Facebook" src="imagenesfooter/instagram.png">
+                    <img class="Instagram" src="imagenesfooter/facebook.png">
+                    <img class="WhatsApp" src="imagenesfooter/whatsapp.png">
+                    <img class="Scl" src="imagenesfooter/scl.png">
                 </div>
             </div>
-        </footer>
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>-->
 
 
 
 
         <!--JAVASCRIPT-->
-
-
-
+        <div id="scripts">
+            <div>
+                <script src="js/V_magisterio/data.js"></script>
+                <script src="js/V_magisterio/u1.js"></script>
+            </div>
+        </div>
 
 </body>
 

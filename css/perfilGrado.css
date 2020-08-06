@@ -8,16 +8,16 @@
 
 /*JORGE Banners con informacion*/
 
-.Grado_ {
+.Grado {
     width: 100%;
     height: 500px;
     background-image: url("../imgperfilgrado/team.png");
+    padding-top: 100px;
 }
 
 .text_grado {
     width: 45%;
     height: 200px;
-    margin-top: 145px;
     margin-left: 320px;
     flex-direction: column;
     transition: 1s;
@@ -37,50 +37,74 @@
 }
 
 
-/*________________________________/*
+/*________________________________*/
 
 
 /*ESDRAS Banners con informacion*/
 
-.Imagen_alumnos {
-    width: 100%;
-    height: 300px;
-    background-image: url("../imgperfilgrado/ciudad.png");
-    margin-top: 15px;
+.estiliExtra {
+    padding: 50px 0px 200px 0px;
+    overflow: hidden;
 }
 
 #Titulo_alumnos {
     font-size: 50px;
     font-family: 'Rationale', sans-serif;
-    color: white;
+    color: #2C3E50;
     padding-top: 15px;
     padding-bottom: 50px;
     text-align: center;
 }
 
 #tabla {
-    text-align: center;
-    font-family: 'Rationale', sans-serif;
+    width: 100%;
     font-size: 18px;
-    border: 1px solid #ffffff;
-    margin: auto;
+    overflow: hidden;
 }
 
-.encabezadoAlumnos {
-    background-color: purple;
+#tabla>div {
+    background-color: #2C3E50;
+    overflow: hidden;
 }
 
-.encabezadoAlumnos>td {
+#tabla>div>div {
     color: #ffffff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    border: 1px solid #ffffff;
 }
 
-.colum0 {
+#tabla>div>a>div {
+    color: #ffffff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    float: left;
+    border: 1px solid #ffffff;
+}
+
+#tabla>div>a>div:hover {
+    background-color: #4081A1;
+}
+
+#colum0 {
     width: 50px;
-    height: 25px;
+    text-align: center;
 }
 
-.colum1 {
-    width: 700px;
+#colum1 {
+    width: 800px;
+    padding-left: 10px;
+}
+
+#colum2 {
+    width: 200px;
+    padding-left: 10px;
+}
+
+#colum3 {
+    width: 150px;
+    padding-left: 10px;
 }
 
 

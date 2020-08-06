@@ -62,3 +62,31 @@ function cargarPerfil() {
 };
 
 cargarPerfil();
+
+
+
+/* function cargarPerfil() {
+
+    var scripts = document.querySelector("#scripts");
+
+    scripts.innerHTML = "";
+
+    tituloProyecto.forEach(function(elemento, indice) {
+
+                var cajaScripts = document.createElement("div");
+
+                cajaScripts.innerHTML =
+
+                    '<script src="js/V_magisterio/data.js"></script>' +
+                    '<script src="js/V_magisterio/u1.js"></script>'
+
+
+                scripts.appendChild(cajaScripts);
+
+                });
+
+
+}
+cargarPerfil();
+
+element.addEventListener("click", cargarPerfil); */
