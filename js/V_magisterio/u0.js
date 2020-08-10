@@ -13,10 +13,8 @@ var linkProyecto = [
 
 var img = [
     '<img src="imgperfilusuario/VMagisterio/examen.jpg">',
-    '<img src="imgperfilusuario/VMagisterio/examen.jpg">',
-    '<img src="imgperfilusuario/VMagisterio/examen.jpg">'
-    /*     '<img src="imgperfilusuario/VMagisterio/diploma.jpg">',
-        '<img src="imgperfilusuario/VMagisterio/diploma.jpg">' */
+    '<img src="imgperfilusuario/VMagisterio/diploma.jpg">',
+    '<img src="imgperfilusuario/VMagisterio/diploma.jpg">'
 ];
 
 function mostrarProyectos() {

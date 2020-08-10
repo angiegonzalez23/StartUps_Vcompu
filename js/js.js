@@ -1,16 +1,17 @@
-var carrera = [
-    "V magisterio",
-    "V Computación",
-    "V Diseño",
-    "IV Computación",
-    "IV Diseño"
+var nombreProyecto = [
+    "Login"
 ];
+
+var imgCarrera = [
+    "imgperfilusuario/Vcomputacion/imgProyectos/proyectoLogin.jpg"
+];
+
 
 function cargarRecientes() {
 
     var cajaRecientes = document.querySelector("#cr");
 
-    carrera.forEach(function(elemento, indice) {
+    nombreProyecto.forEach(function(elemento, indice) {
 
         var tarjeta = document.createElement("div");
 
@@ -20,7 +21,7 @@ function cargarRecientes() {
             ' <div class="cv_CuadrosImgs">' +
             '<div class="cv_CuadroInterior">' +
             '<p>' +
-            carrera[indice] +
+            nombreProyecto[indice] +
             '</p>' +
             '</div>' +
             '</div>' +
