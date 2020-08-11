@@ -72,7 +72,7 @@ header{
 .mm_menu ul ul {
     display:none;
     position:absolute;
-    top:15px;
+    top:20px;
     left:0;
     padding:0;
     text-align: center;
@@ -87,10 +87,15 @@ header{
 .mm_menu ul ul a {
     line-height:100%;
     padding:10px 15px;
+  background-color: #00a288;
 }
 
 .mm_menu ul li:hover > ul {
     display:block;
+}
+.mm_menu ul ul a:hover {
+
+background-color: rebeccapurple;
 }
 .carreras{
   left: 250px;
@@ -123,8 +128,5 @@ header{
     margin-top: 0px;
 		border-bottom:1px solid rgba(255,255,255, .3);
 	}
-
-
-
 
 }
