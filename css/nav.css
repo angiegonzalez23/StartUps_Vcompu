@@ -86,7 +86,8 @@ header{
 
 .mm_menu ul ul a {
     line-height:100%;
-    padding:10px 15px;
+
+    padding:10px 15px 10px 15px;
   background-color: #00a288;
 }
 
