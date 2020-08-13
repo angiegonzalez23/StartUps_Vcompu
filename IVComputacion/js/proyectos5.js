@@ -1,7 +1,7 @@
 var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
 
 var linkProyecto = [
-  "https://oreo-beep.github.io/unidos2/",
+  "https://github.com/oreo-beep/java.git",
   "https://oreo-beep.github.io/unidos2/"
 ];
 

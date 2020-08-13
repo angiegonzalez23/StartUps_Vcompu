@@ -1,7 +1,7 @@
 var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
 
 var linkProyecto = [
-  "https://pricilagarcia.github.io/Sistema_Solar/",
+  "https://github.com/pricilagarcia/Tienda_Fashion.git",
   "https://pricilagarcia.github.io/Sistema_Solar/"
 ];
 
