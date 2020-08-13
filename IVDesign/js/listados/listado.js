@@ -1,11 +1,13 @@
 var usuarios = [
-  "Andrea del Pilar Sique Racanac",
-  "Deisi Asuceli Ruiz Socop",
-  "Juan Pablo Monroy Pineda",
-  "Pricila Lizbeth Morales García",
-  "Wilber Omar Franco del Cid",
-  "Diego Eduardo Osorio Chunchún",
-  "Pablo José Franco Vásquez"
+  "Diego Alexander Barrios Hernández",
+  "Fernando Javier Luch Contreras",
+  "José Pablo Mejia Galiano",
+  "Joselyn Gabriela Andrea Xajil Cuy",
+  "Katherine Michelle Alvarado Garcia",
+  "Keiry Anaí Guadalupe Juárez Erazo",
+  "Natalie Noemí Zamora Santizo",
+  "Susan Andrea Ramos Aguilar",
+  "Rafael Andree de León Ramirez"
 ];
 var direccionGeneral = "user";
 

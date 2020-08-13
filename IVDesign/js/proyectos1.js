@@ -1,11 +1,11 @@
-var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
+var tituloProyecto = ["DISEÑO UI", "COSMOS_HTML"];
 
 var linkProyecto = [
-  "https://deisiasu.github.io/Code_3/",
-  "https://deisiasu.github.io/Code_3/"
+  "https://drive.google.com/file/d/1GxKWi6wZyT0KJFwg5hnb0ky9wqO7Waz4/view?usp=sharing/",
+  "https://fercholuch.github.io/III-12-C-digo-2/"
 ];
 
-var img = ['<img src="img/javaTienda.jpg">', '<img src="img/html1.jpg">'];
+var img = ['<img src="img/ui.jpg">', '<img src="img/codeHTML1.png">'];
 
 function mostrarProyectos() {
   var cajaProyectos = document.querySelector("#rm_cajaContenidoUsuario");

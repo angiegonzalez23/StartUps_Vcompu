@@ -1,11 +1,11 @@
-var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
+var tituloProyecto = ["DISEÑO UI", "COSMOS_HTML"];
 
 var linkProyecto = [
-  "https://cdn.memegenerator.es/imagenes/memes/full/19/84/19848162.jpg",
-  "https://cdn.memegenerator.es/imagenes/memes/full/19/84/19848162.jpg"
+  "https://drive.google.com/file/d/12tFHqqB1pJBFDiXCrtIfztBQSrWzHVE1/view?usp=sharing",
+  "https://jpmejia2.github.io/Practica1/"
 ];
 
-var img = ['<img src="img/javaTienda.jpg">', '<img src="img/html1.jpg">'];
+var img = ['<img src="img/ui.jpg">', '<img src="img/codeHTML1.png">'];
 
 function mostrarProyectos() {
   var cajaProyectos = document.querySelector("#rm_cajaContenidoUsuario");

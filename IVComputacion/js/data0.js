@@ -5,7 +5,8 @@ var imgPerfil = [
   '<img class="ag_Perfil" src="img/pricila.png">',
   '<img class="ag_Perfil" src="img/wilbert.png">',
   '<img class="ag_Perfil" src="img/diego.jpg">',
-  '<img class="ag_Perfil" src="img/pabloFranco.png">'
+  '<img class="ag_Perfil" src="img/pabloFranco.png">',
+  '<img class="ag_Perfil" src="img/darious.png">'
 ];
 
 var usuarios = [
@@ -15,10 +16,12 @@ var usuarios = [
   "Pricila Lizbeth Morales García",
   "Wilber Omar Franco del Cid",
   "Diego Eduardo Osorio Chunchún",
-  "Pablo José Franco Vásquez"
+  "Pablo José Franco Vásquez",
+  "Darious Alejandro Aldana Castellanos"
 ];
 
 var carrera = [
+  "IV Computación",
   "IV Computación",
   "IV Computación",
   "IV Computación",
@@ -35,7 +38,8 @@ var especialidad1 = [
   "Ortografía ",
   "HTML",
   "Matemáticas",
-  "HTML/CSS"
+  "HTML/CSS",
+  "HTML"
 ];
 
 var especialidad2 = [
@@ -45,7 +49,8 @@ var especialidad2 = [
   "HTML y CSS",
   "CSS",
   "Páginas web",
-  "JAVA"
+  "JAVA",
+  "-----"
 ];
 
 var descripcion = [
@@ -55,7 +60,8 @@ var descripcion = [
   "Tengo 16 años y me considero una persona muy simpática, amigable y respetuosa. Me gusta ser puntual y responsable en mis estudios, soy una persona que sueña en grande y lucha por lo que quiere.",
   "Alguien serio que disfruta del silencio y no le importa nadie más que él mismo. ",
   "Persona optimista, perseverante",
-  "Bueno para las matemáticas, los códigos los aprendo de forma sencilla y recibo con tolerancia y respeto las opiniones acerca de mis códigos"
+  "Bueno para las matemáticas, los códigos los aprendo de forma sencilla y recibo con tolerancia y respeto las opiniones acerca de mis códigos",
+  "soy una persona que le gusta aprender muchas y probar cosas nuevas"
 ];
 
 function cargarPerfil() {

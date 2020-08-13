@@ -1,11 +1,11 @@
-var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
+var tituloProyecto = ["DISEÑO UI", "COSMOS_HTML"];
 
 var linkProyecto = [
-  "https://andreasique.github.io/Pagina_De_Ejercicios/",
-  "https://andreasique.github.io/Pagina_De_Ejercicios/"
+  "https://drive.google.com/file/d/1PcesF01-jT4VWiTJNqebYXeuHpNHUMSe/view?usp=sharing",
+  "https://srpatito.github.io/-Hover/"
 ];
 
-var img = ['<img src="img/javaTienda.jpg">', '<img src="img/html1.jpg">'];
+var img = ['<img src="img/ui.jpg">', '<img src="img/codeHTML1.png">'];
 
 function mostrarProyectos() {
   var cajaProyectos = document.querySelector("#rm_cajaContenidoUsuario");

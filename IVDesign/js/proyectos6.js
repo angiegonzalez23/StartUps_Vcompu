@@ -1,11 +1,8 @@
-var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
+var tituloProyecto = ["DISEÑO UI", "COSMOS_HTML"];
 
-var linkProyecto = [
-  "https://pjfranco14.github.io/Project_presentation1/",
-  "https://pjfranco14.github.io/Project_presentation1/"
-];
+var linkProyecto = ["", ""];
 
-var img = ['<img src="img/javaTienda.jpg">', '<img src="img/html1.jpg">'];
+var img = ['<img src="img/ui.jpg">', '<img src="img/codeHTML1.png">'];
 
 function mostrarProyectos() {
   var cajaProyectos = document.querySelector("#rm_cajaContenidoUsuario");

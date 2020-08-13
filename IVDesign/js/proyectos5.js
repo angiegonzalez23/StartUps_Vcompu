@@ -1,11 +1,11 @@
-var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
+var tituloProyecto = ["DISEÑO UI", "COSMOS_HTML"];
 
 var linkProyecto = [
-  "https://oreo-beep.github.io/unidos2/",
-  "https://oreo-beep.github.io/unidos2/"
+  "https://drive.google.com/file/d/1wKeq-usg17HI7qO4f4vhiM1T_qXFtigC/view?usp=sharing",
+  "https://kagjuarez.github.io/1.Codigo/"
 ];
 
-var img = ['<img src="img/javaTienda.jpg">', '<img src="img/html1.jpg">'];
+var img = ['<img src="img/ui.jpg">', '<img src="img/codeHTML1.png">'];
 
 function mostrarProyectos() {
   var cajaProyectos = document.querySelector("#rm_cajaContenidoUsuario");

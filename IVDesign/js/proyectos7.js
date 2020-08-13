@@ -1,11 +1,8 @@
-var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
+var tituloProyecto = ["DISEÑO UI", "COSMOS_HTML"];
 
-var linkProyecto = [
-  "https://drive.google.com/drive/folders/1skCUxTafbU6XE99OzHXEH99TaEq6H5GJ?usp=sharing",
-  "https://drive.google.com/drive/folders/1pwn5MT7_VNxUf-W_A3gsKADvWLXuADYg?usp=sharing"
-];
+var linkProyecto = ["", ""];
 
-var img = ['<img src="img/javaTienda.jpg">', '<img src="img/html1.jpg">'];
+var img = ['<img src="img/ui.jpg">', '<img src="img/codeHTML1.png">'];
 
 function mostrarProyectos() {
   var cajaProyectos = document.querySelector("#rm_cajaContenidoUsuario");

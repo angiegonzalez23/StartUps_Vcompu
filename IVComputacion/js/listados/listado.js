@@ -5,7 +5,8 @@ var usuarios = [
   "Pricila Lizbeth Morales García",
   "Wilber Omar Franco del Cid",
   "Diego Eduardo Osorio Chunchún",
-  "Pablo José Franco Vásquez"
+  "Pablo José Franco Vásquez",
+  "Darious Alejandro Aldana Castellanos"
 ];
 var direccionGeneral = "user";
 

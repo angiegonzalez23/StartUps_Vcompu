@@ -1,49 +1,73 @@
 var imgPerfil = [
-  '<img class="ag_Perfil" src="img/andreaDelpilar.png">',
-  '<img class="ag_Perfil" src="img/deisi.png">',
-  '<img class="ag_Perfil" src="img/juanPablo.png">',
-  '<img class="ag_Perfil" src="img/pricila.png">',
-  '<img class="ag_Perfil" src="img/wilbert.png">'
+  '<img class="ag_Perfil" src="img/default.png">',
+  '<img class="ag_Perfil" src="img/fernandoJavier.png">',
+  '<img class="ag_Perfil" src="img/josePablo.png">',
+  '<img class="ag_Perfil" src="img/default.png">',
+  '<img class="ag_Perfil" src="img/default.png">',
+  '<img class="ag_Perfil" src="img/katherine.jpg">',
+  '<img class="ag_Perfil" src="img/default.png">',
+  '<img class="ag_Perfil" src="img/susanAndrea.png">',
+  '<img class="ag_Perfil" src="img/default.png">'
 ];
 
 var usuarios = [
-  "Andrea del Pilar Sique Racanac",
-  "Deisi Asuceli Ruiz Socop",
-  "Juan Pablo Monroy Pineda",
-  "Pricila Lizbeth Morales García",
-  "Wilber Omar Franco del Cid"
+  "Diego Alexander Barrios Hernández",
+  "Fernando Javier Luch Contreras",
+  "José Pablo Mejia Galiano",
+  "Joselyn Gabriela Andrea Xajil Cuy",
+  "Katherine Michelle Alvarado Garcia",
+  "Keiry Anaí Guadalupe Juárez Erazo",
+  "Natalie Noemí Zamora Santizo",
+  "Susan Andrea Ramos Aguilar",
+  "Rafael Andree de León Ramirez"
 ];
 
 var carrera = [
-  "IV Computación",
-  "IV Computación",
-  "IV Computación",
-  "IV Computación",
-  "IV Computación"
+  "IV Diseño",
+  "IV Diseño",
+  "IV Diseño",
+  "IV Diseño",
+  "IV Diseño",
+  "IV Diseño",
+  "IV Diseño",
+  "IV Diseño",
+  "IV Diseño"
 ];
 
 var especialidad1 = [
-  "HTML, CSS",
-  "Se  me facilita el htlm /css.",
-  "HTML/CSS",
-  "Ortografía ",
-  "HTML"
+  "Adobe XD",
+  "Photoshop",
+  "Manejo muy bien el programa Adobe XD para hacer diseños",
+  "Lenguaje de señas básico",
+  "Primer año en el diseño de paginas web",
+  "Photoshop",
+  "Photoshop",
+  "Buen manejo de las herramientas de Photoshop",
+  "Photoshop"
 ];
 
 var especialidad2 = [
-  "Ortografía",
-  "Se me facilitan los  temas que son de sociales.",
-  "JAVA",
-  "HTML y CSS",
-  "CSS"
+  "Photoshop",
+  "Adobe Xd",
+  "Puedo editar fotos con Picsart",
+  "Manejo básico de programas como photoshop, adobe xd y adobe illustrator. Desarrolladora  de páginas web en html y css 5.",
+  "Fotografía",
+  "Adobe xd",
+  "Programación",
+  "html y css",
+  "adobe xd"
 ];
 
 var descripcion = [
-  "Soy una persona responsable que se esfuerza cada día por aprender algo diferente, que que trata de hacer lo mejor siempre",
-  "Soy una persona  que trata de ser muy puntual con sus obligaciones y trato de siempre ayudar a las personas que lo necesitan.",
-  "Soy una persona que le gusta mucho escuchar, me gusta la cocina, me gusta la musica, me gustan los animales, me gusta leer, me considero una persona amigable, solidario, respetuoso y llevadero.",
-  "Tengo 16 años y me considero una persona muy simpática, amigable y respetuosa. Me gusta ser puntual y responsable en mis estudios, soy una persona que sueña en grande y lucha por lo que quiere.",
-  "Alguien serio que disfruta del silencio y no le importa nadie más que él mismo. "
+  "Soy una persona creativa que le encanta diseñar :)",
+  "Amigable, algo sociable, alguien de mucha confianza, detallista, gentil, algo serio...",
+  "Soy un chico muy calmado y una combinación extraña entre serio y divertido. No me gusta tanto hablar y por eso me considero prudente al hacerlo ya que me da tiempo de pensar antes de decir las cosas. Amo los ambientes calmados y solitarios, por lo tanto, no me gusta socializar.",
+  "Me gusta reinventarme, cada uno de mis trabajos y proyectos tienen una intención tanto en el proceso como en los resultados. ",
+  "Soy muy paciente, creativa, algo seria y callada, me gusta trabajar en silencio y se trabajar bajo presión",
+  "Mi persona es alguien reservada, callada, observadora, seria, pero a la hora de conocerme suelo ser más amable y menos fría, el hecho de ser así es porque me concentro en los pequeños detalles que están a mi alrededor y los plasmo en ideas o dibujos.",
+  "Soy una persona muy abierta de mente, siempre dispuesta a nuevas ideas y oportunidades; suelo ser persistente y optimista en los proyectos que yo genero, o en los que participo (aunque se me sea dificil trabajar en grupo aveces). Paciente y flexible al ayudar a otros. Responsable aunque no muy organizada. Me agrada tener mi espacio pero si tengo que compartir no genero líos. Empática pero firme ante diferentes situaciones. Busco encontrar soluciones de la forma rápida, y creativamente, pero manteniendo los parámetros necesarios (formalidad, llamativo, ameno etc). Intento mostrar siempre la inniciativa; y cuando no es posible, apoyo y demuestro todo mi potencial hacia el grupo y el lider. Competitiva, manteniendo el respeto y aceptación de errores.",
+  "Me considero una persona muy sociable, amigable, y extrovertida,  siempre trato de buscar otros puntos de vista de las cosas o de las personas, siempre he tomado mis fracasos como impulsos para poder conseguir lo que quiero. ",
+  "Una persona tranquila, con grandes sueños y metas"
 ];
 
 function cargarPerfil() {

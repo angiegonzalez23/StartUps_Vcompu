@@ -2,7 +2,7 @@ var tituloProyecto = ["TIENDA_JAVA", "COSMOS_HTML"];
 
 var linkProyecto = [
   "https://drive.google.com/drive/folders/1skCUxTafbU6XE99OzHXEH99TaEq6H5GJ?usp=sharing",
-  "https://drive.google.com/drive/folders/1pwn5MT7_VNxUf-W_A3gsKADvWLXuADYg?usp=sharing"
+  "https://meet.google.com/linkredirect?authuser=1&dest=https%3A%2F%2Fjanaldana.github.io%2FCosmos_HTML%2F"
 ];
 
 var img = ['<img src="img/javaTienda.jpg">', '<img src="img/html1.jpg">'];
