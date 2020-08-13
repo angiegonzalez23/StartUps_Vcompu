@@ -1,10 +1,16 @@
-var tituloProyecto = ["MI COMPUTADORA"];
+var tituloProyecto = ["MIXCO", "FOTOGRAFÍA", "BANNER"];
 
 var linkProyecto = [
-  "https://drive.google.com/drive/folders/0Bz0rQaqDQQfQfkt4RzJCeWZDY3VVQTV4dWpQMk1Mc0xDTkV6WkpxWTBQUEZiMUs1RlFKUXM?usp=sharing"
+  "https://classroom.google.com/u/1/g/tg/NDE4MzU4MzA0MzRa/MTQzMDA4MDU5NzY3?authuser=1#u=MTA2NjQxOTA5NzBa",
+  "https://classroom.google.com/u/1/g/tg/NDE4MzU4MzA0MzRa/MTQzMDA4MDU5NzY3?authuser=1#u=MTA2NjQxOTA5NzBa",
+  "https://classroom.google.com/u/1/g/tg/NDE4MzU4MzA0MzRa/MTQzMDA4MDU5NzY3?authuser=1#u=MTA2NjQxOTA5NzBa"
 ];
 
-var img = ['<img src="img/proyecto.jpg">'];
+var img = [
+  '<img src="img/proyecto.jpg">',
+  '<img src="img/proyecto2.jpg">',
+  '<img src="img/proyecto3.jpg">'
+];
 
 function mostrarProyectos() {
   var cajaProyectos = document.querySelector("#rm_cajaContenidoUsuario");
