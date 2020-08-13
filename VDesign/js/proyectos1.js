@@ -1,9 +1,9 @@
 var tituloProyecto = ["MIXCO", "FOTOGRAFÍA", "BANNER"];
 
 var linkProyecto = [
-  "https://drive.google.com/drive/folders/12gW1nj9IYXsrvm5hyZHnU-CWeaQkj6kc?usp=sharing",
-  "https://drive.google.com/drive/folders/1NPn2kna7O9Qyi3Y8J0UTaNAtmyXxJTBk?usp=sharing",
-  "https://drive.google.com/drive/folders/1MjfDos0dF3WfSjNm8ZY95MOlKtCUhluN?usp=sharing"
+  "https://drive.google.com/drive/folders/1ycW_o1B0c_bPo0HvNOzIH_iePzvb6iXQ?usp=sharing",
+  "https://drive.google.com/drive/folders/1TopO97bPw5OCrlVkm5krRy_u3uECBoK0?usp=sharing",
+  "https://drive.google.com/drive/folders/1ZJmtGPlG8O42MGGeub6EUIA31hdXb3iB?usp=sharing"
 ];
 
 var img = [
