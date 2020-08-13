@@ -87,6 +87,58 @@ hr{
   color:white;
   text-align: center;
 }
+.dj_compu{
+  position: relative;
+}
+.dj_text_img{
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+  padding-top: 70px;
+  font-family:monospace;
+  text-align: center;
+  color:white;
+  margin-left: 80px;
+  width: 350px;
+  height: 153px;
+
+  background: rgba(0, 0, 0, 0.6);
+}
+.dj_compu2{
+  position: relative;
+}
+.dj_text2_img{
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+  padding-top: 70px;
+  font-family:monospace;
+  text-align: center;
+  color:white;
+  margin-left: 444px;
+  width: 350px;
+  height: 153px;
+
+  background: rgba(0, 0, 0, 0.6);
+}
+.dj_compu3{
+  position: relative;
+  width: 350px;
+}
+.dj_text3_img{
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+  padding-top: 70px;
+  font-family:monospace;
+  text-align: center;
+  color:white;
+  margin-left: 809px;
+  width: 350px;
+  height: 153px;
+
+  background: rgba(0, 0, 0, 0.6);
+}
 .dot {
     margin-right: -15px;
     margin-left: 30px;
