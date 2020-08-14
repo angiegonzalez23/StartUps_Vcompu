@@ -1,7 +1,7 @@
 var tituloProyecto = ["MY COMPUTADORA"];
 
 var linkProyecto = [
-  "https://drive.google.com/drive/folders/0Bz0rQaqDQQfQfmcwajVVUXpIRDY5NlBwVGVIbFZSS0xYVnNiWlh5ZGVXWVIwRU1uQkVnazg?usp=sharing"
+  "https://www.canva.com/design/DAEDjga2tDc/Wd7cBPsXh429zmb3UvuE7A/view?utm_content=DAEDjga2tDc&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menug"
 ];
 
 var img = ['<img src="img/proyecto1.png">'];
