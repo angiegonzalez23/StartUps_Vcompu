@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: arial;
+}
+footer{
+  width: 100%;
+  height: 170px;
+  background-color: #00a288;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.contenidoDelFotooterDJ{
+    text-align: center;
+    margin-left: 510px;
+    font-size: 14px;
+    color:beige
+}
+.direccionDJ p{
+    font-size: 55px;
+    text-align: center;
+    color:aquamarine;
+    margin-left: 250px;
+    margin-right: 500px;
+}
+.iconoDeFacebookDJ{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 280px;
+    margin-right: auto;
+    margin-top: 6px;
+}
+.iconoDeInstagramDJ{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 415px;
+    margin-right: auto;
+    margin-top: -30px;
+}
+.iconoDeWhatsAppDJ{
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: 550px;
+    margin-right: auto;
+    margin-top: -30px;
+}
+.iconoSclDJ{
+     width: 85px;
+    height: 85px;
+    margin-left: 88%;
+    margin-right: auto;
+    margin-top: -30px;
+   
+}
