@@ -1,15 +1,17 @@
-var tituloProyecto = ["MIXCO", "FOTOGRAFÍA", "BANNER"];
+var tituloProyecto = ["MIXCO", "FOTOGRAFÍA", "BANNER", "INSTRUCTIVO"];
 
 var linkProyecto = [
   "https://drive.google.com/drive/folders/1Q_yN2v0s4DDcew0TLZNr_NR2KGpqHbuS?usp=sharing",
   "https://drive.google.com/drive/folders/1FUp5f4jU-tgXXAjze1YKIrgm581lImUw?usp=sharing",
-  "https://drive.google.com/drive/folders/13d8oTtE9-AzfuxjZI3lyF74v3AHIbtjr?usp=sharing"
+  "https://drive.google.com/drive/folders/13d8oTtE9-AzfuxjZI3lyF74v3AHIbtjr?usp=sharing",
+  "https://drive.google.com/drive/folders/0Bz0rQaqDQQfQfnRIcGZqV0wyVFo3b0tSbGtnOTBfWHYtZWxOVzZid2pjMlUxbWxIOE1LVzg?usp=sharing"
 ];
 
 var img = [
   '<img src="img/proyecto.jpg">',
   '<img src="img/proyecto2.jpg">',
-  '<img src="img/proyecto3.jpg">'
+  '<img src="img/proyecto3.jpg">',
+  '<img src="img/proyecto4.jpg">'
 ];
 
 function mostrarProyectos() {

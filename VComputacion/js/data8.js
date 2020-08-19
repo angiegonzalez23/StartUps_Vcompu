@@ -104,8 +104,7 @@ var descripcion = [
   "Tengo 18 años, me gusta apasionarme en los trabajos que he realizado y soy muy ordenada,  me gusta aprender y dar lo mejor de mí cada día",
   "Soy una persona calmada, seria, curiosa, que tiene ideales para seguir adelante y formarse como profesional.",
   "Soy una persona que puede hacer un poco de programación y tengo mucha experiencia en los juegos."
-];rvicial."
-];
+]
 
 function cargarPerfil() {
   var User = 8;
