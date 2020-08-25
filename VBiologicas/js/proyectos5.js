@@ -1,7 +1,7 @@
 var tituloProyecto = ["MY COMPUTADORA"];
 
 var linkProyecto = [
-  "https://drive.google.com/drive/folders/0Bz0rQaqDQQfQfmcwajVVUXpIRDY5NlBwVGVIbFZSS0xYVnNiWlh5ZGVXWVIwRU1uQkVnazg?usp=sharing"
+  "https://view.genial.ly/5f2518b635277d0d693bd4f3/presentation-pbl-computacion"
 ];
 
 var img = ['<img src="img/proyecto1.png">'];
