@@ -1,6 +1,6 @@
 var tituloProyecto = ["DISEÑO UI", "COSMOS_HTML"];
 
-var linkProyecto = ["", ""];
+var linkProyecto = ["", "https://sua027.github.io/codigo_2/"];
 
 var img = ['<img src="img/ui.jpg">', '<img src="img/codeHTML1.png">'];
 
