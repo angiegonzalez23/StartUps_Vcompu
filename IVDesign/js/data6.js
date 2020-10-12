@@ -5,7 +5,7 @@ var imgPerfil = [
   '<img class="ag_Perfil" src="img/default.png">',
   '<img class="ag_Perfil" src="img/default.png">',
   '<img class="ag_Perfil" src="img/katherine.jpg">',
-  '<img class="ag_Perfil" src="img/default.png">',
+  '<img class="ag_Perfil" src="img/natalia.png">',
   '<img class="ag_Perfil" src="img/susanAndrea.png">',
   '<img class="ag_Perfil" src="img/default.png">'
 ];
